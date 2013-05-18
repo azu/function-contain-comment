@@ -5,10 +5,10 @@
  */
 var assert = require("assert")
 describe('Function', function (){
-    describe('When function contain /*comment*/', function (){
+    describe('When function contain /* comment */', function (){
         it('should contain /* comment */', function (){
-            var result = (function (){/* comment */}).toString();
-            assert.equal(result, "function (){/* comment */}");
+            var result = (function(){/*comment*/}).toString();
+            assert.equal(result, "function(){/*comment*/}");
         });
     });
     describe('When function contain multiline /*comment*/', function (){
