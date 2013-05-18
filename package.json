@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "here document test",
     "main": "index.js",
-    "browsers": {
+    "testling": {
         "browsers": {
             "ie": [ 6, 7, 8, 9, 10 ],
             "ff": [ 10, 11, 15, 16, 17, 18, "nightly" ],
