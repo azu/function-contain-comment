@@ -1,14 +1,14 @@
-# Project Name
+# function-contain-comment
 
-- [ ] Write a project description
+``` js
+var result = (function () {/*
+cooment
+*/}).toString();
 
-## Installation
+// result ???
+```
 
-- [ ] Describe the installation process
-
-## Usage
-
-- [ ] Write usage instructions
+[![browser support](http://ci.testling.com/azu/function-contain-comment.png)](http://ci.testling.com/azu/function-contain-comment)
 
 ## Contributing
 
